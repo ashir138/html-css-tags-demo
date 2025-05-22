@@ -27,12 +27,7 @@ It's perfect for:
 
 ---
 
-## 🔍 Preview
 
-![HTML Preview](images/html-preview.png)
-![CSS Preview](images/css-preview.png)
-
----
 
 ## 🤝 Connect
 
