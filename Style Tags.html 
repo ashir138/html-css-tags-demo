@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Properties Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .demo-box {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px dashed #999;
+            border-radius: 10px;
+        }
+        .flex-demo {
+            display: flex;
+            gap: 15px;
+        }
+        .grid-demo {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CSS Properties Demo</h1>
+        <p>Explore the most useful CSS properties with examples.</p>
+    </header>
+
+    <main>
+
+        <section class="demo-box">
+            <h2>Typography</h2>
+            <p style="font-family: Arial; font-size: 18px; color: #2c3e50;">Custom font, size, and color</p>
+            <p style="text-align: center; text-transform: uppercase;">centered and uppercase text</p>
+        </section>
+
+        <section class="demo-box">
+            <h2>Box Model</h2>
+            <div style="padding: 10px; margin: 10px; border: 2px solid black; background-color: #f2f2f2;">
+                This box has padding, margin, border, and background.
+            </div>
+        </section>
+
+        <section class="demo-box">
+            <h2>Display</h2>
+            <div style="display: inline-block; background: #d1e7dd; padding: 5px;">Inline-Block 1</div>
+            <div style="display: inline-block; background: #f8d7da; padding: 5px;">Inline-Block 2</div>
+        </section>
+
+        <section class="demo-box">
+            <h2>Flexbox</h2>
+            <div class="flex-demo">
+                <div style="background: #ffeeba; padding: 10px;">Flex Item 1</div>
+                <div style="background: #bee5eb; padding: 10px;">Flex Item 2</div>
+                <div style="background: #c3e6cb; padding: 10px;">Flex Item 3</div>
+            </div>
+        </section>
+
+        <section class="demo-box">
+            <h2>Grid</h2>
+            <div class="grid-demo">
+                <div style="background: #d4edda; padding: 10px;">Grid 1</div>
+                <div style="background: #f5c6cb; padding: 10px;">Grid 2</div>
+                <div style="background: #b8daff; padding: 10px;">Grid 3</div>
+            </div>
+        </section>
+
+        <section class="demo-box">
+            <h2>Position</h2>
+            <div style="position: relative; background: #f0f0f0; height: 100px;">
+                <div style="position: absolute; top: 10px; right: 10px; background: #ddd; padding: 5px;">
+                    Absolutely positioned
+                </div>
+                This box is relatively positioned.
+            </div>
+        </section>
+
+        <section class="demo-box">
+            <h2>Transitions & Hover</h2>
+            <button style="padding: 10px 20px; background: #007bff; color: white; border: none; transition: 0.3s ease;">
+                Hover Me
+            </button>
+            <style>
+                button:hover {
+                    background-color: #0056b3;
+                    transform: scale(1.1);
+                }
+            </style>
+        </section>
+
+        <section class="demo-box">
+            <h2>Animation</h2>
+            <div style="width: 50px; height: 50px; background: red; animation: bounce 1s infinite;"></div>
+            <style>
+                @keyframes bounce {
+                    0%, 100% { transform: translateY(0); }
+                    50% { transform: translateY(-15px); }
+                }
+            </style>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>CSS is ❤️ — Created by Ali Ashir</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+# HTML & CSS Tags Demo 🌐🎨
+
+This beginner-friendly project demonstrates the majority of **HTML and CSS tags** in real use. It's designed for students, developers, and educators who want a quick reference or learning tool.
+
+## 🔧 Files Included
+
+- `index.html` — A showcase of almost all HTML tags with examples.
+- `style-tags.html` — Common CSS properties with live demonstrations.
+- `styles.css` — Shared styling for clean and readable layout.
+
+## 📸 Preview
+
+![Preview](preview.png)
+
+## 🚀 How to Use
+
+1. Clone or download this repo.
+2. Open `index.html` and `style-tags.html` in your browser.
+3. Explore and learn interactively!
+
+## 🤝 Contribute
+
+Feel free to fork, clone, and improve. Pull requests are welcome!
+
+---
+
+Made with ❤️ by [Ali Ashir](https://github.com/ashir138)
